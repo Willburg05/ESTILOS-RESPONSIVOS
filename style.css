@@ -17,6 +17,17 @@ line-height: 17px;
 .titulo{
     text-align: center;
     font-size: 23px;
+    position: sticky;
+
+    top: 0;
+  
+    background-color: #ff0004;
+  
+    color: white;
+  
+    padding: 10px;
+  
+    z-index: 1000; /* Asegura que siempre quede sobre el contenido */
 }
 .p1{
     text-align: center;    
@@ -64,3 +75,8 @@ line-height: 17px;
     }
   
   }
+  <div class="sticky-header">
+
+  Encabezado Adhesivo
+
+</div>
