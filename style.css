@@ -1,0 +1,66 @@
+body{
+    background-color: grey;
+    
+}
+.caja{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+margin: 5px;
+line-height: 17px;
+    border-radius: 100px;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 23px;
+}
+.p1{
+    text-align: center;    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 1024px) {
+
+    body {
+  
+      font-size: 20px; /* Fuente más grande para legibilidad en pantallas grandes */
+  
+    }
+  
+    .container {
+  
+      display: flex;
+  
+      flex-direction: row; /* Mantenemos un layout amplio y cómodo */
+  
+      flex-wrap: nowrap; /* Evitamos que los elementos se envuelvan */
+  
+    }
+  
+    .sidebar {
+  
+      width: 25%; /* Ajustamos la barra lateral para ocupar un espacio menor */
+  
+    }
+  
+    .main-content {
+  
+      width: 75%; /* El contenido principal tiene la mayor prioridad */
+  
+    }
+  
+  }
